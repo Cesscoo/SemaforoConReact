@@ -9,4 +9,4 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Home keyName="green"  attr1="cosa1" attr2="cosa2" />, document.querySelector("#app"));
